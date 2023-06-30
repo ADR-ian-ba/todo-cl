@@ -15,7 +15,7 @@ const IndexPage = () => {
       username: username
     }
 
-    fetch("http://localhost:4000/deleteTodo",{
+    fetch("https://todo-api-a8yb.onrender.com/deleteTodo",{
       method: "POST",
       headers:{
         "Content-Type": "application/json"
@@ -49,7 +49,7 @@ const IndexPage = () => {
       username: username
     }
 
-    fetch("http://localhost:4000/addTodo", {
+    fetch("https://todo-api-a8yb.onrender.com/addTodo", {
       method: "POST",
       headers:{
         "Content-Type": "application/json"

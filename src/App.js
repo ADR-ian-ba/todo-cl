@@ -20,7 +20,7 @@ function App() {
   function validateToken(){
     const token=getTokenFromLocalStorage()
     console.log(token)
-    fetch("http://localhost:4000/validateToken", {
+    fetch("https://todo-api-a8yb.onrender.com/validateToken", {
       method: "POST",
       headers: {
         "Content-type": "appliction/json",

@@ -34,7 +34,7 @@ const RegisterPage = () => {
     if(data.name === '' || data.name.length>6 || data.password < 1){
       setFailed(true)
     }else{
-      fetch("http://localhost:4000/register", {
+      fetch("https://todo-api-a8yb.onrender.com", {
       method: "POST",
       headers : {
         "Content-Type" : "application/json"
