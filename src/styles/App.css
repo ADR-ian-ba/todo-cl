@@ -18,6 +18,8 @@ body{
   background-color: var(--base-background-color);
   color: var(--base-text-color);
   font-family: "poppins", sans-serif;
+  animation: fadeIn 1s ease-in-out;
+  overflow: hidden;
 }
 .react-link{
   text-decoration: none;
@@ -122,4 +124,13 @@ nav{
   }
 
 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
